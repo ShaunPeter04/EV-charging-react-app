@@ -6,6 +6,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavigationBar from './components/NavigationBar'
 import AddVehicle from './components/AddVehicle'
+import ViewVehicle from './components/ViewVehicle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<AddVehicle />} />
+          <Route path='/view' element={<ViewVehicle />} />
         </Routes>
       </BrowserRouter>
 

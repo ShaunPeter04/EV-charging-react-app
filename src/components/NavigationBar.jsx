@@ -48,7 +48,7 @@ const NavigationBar = () => {
                             <li className="nav-item">
                                 <Link
                                     className="btn rounded-pill px-4 py-2 fw-semibold shadow-sm text-dark transition-all"
-                                    to="/"
+                                    to="/view"
                                     style={{
                                         backgroundColor: '#00e599',
                                         border: 'none',
